@@ -3,7 +3,7 @@ let valid = document.getElementById('valid')
 let ins = document.getElementById('in')
 let b = document.querySelector('b')
 function dis(){
-    window.location.href = '/src/index.html'
+    window.location.href = '/index.html'
 }
     sub.addEventListener('click',(e)=>{
         e.preventDefault()
@@ -11,7 +11,7 @@ function dis(){
             valid.style.display = 'flex'
             ins.style.borderColor = 'red'
         } else{
-            window.location.href = '/src/sucess.html'
+            window.location.href = '/sucess.html'
            
         }
     })
