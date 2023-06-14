@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="/output.css">
+</head>
+<body class="bg-[#242742] grid place-items-center w-full h-[100vh]">
+    <section class="bg-white flex smm:flex-col-reverse justify-between items-center smm:w-full smm:rounded-none smm:pt-[0px] smm:h-full smm:px-[0px] p-[14px] w-[50%] h-[70%] rounded-[30px]">
+        <div class="w-fit py-[50px] flex flex-col px-[10px] h-full pb-[50px] text-[#242742]">
+            <span class="text-[42px] font-bold">Stay updated!</span>
+            <p class="text-[13px]">Join 60,000+ product managers recieving monthly updates on:</p>
+            <ul class="flex flex-col gap-[7px] pt-[30px]">
+                <li class="flex gap-[10px] items-center justify-center w-fit h-fit text-[12px]">
+                    <img src="/icon-list.svg" alt="">
+                    Product discovery and building what matters
+                </li>
+                <li class="flex gap-[10px] items-center justify-center w-fit h-fit text-[12px]">
+                    <img src="/icon-list.svg" alt="">
+                    Measuring to ensure updates are a success
+                </li>
+                <li class="flex gap-[10px] items-center justify-center w-fit h-fit text-[12px]">
+                    <img src="/icon-list.svg" alt="">
+                    And much more!
+                </li>
+            </ul>
+            <form action="" class="pt-[14px] w-full gap-[8px] flex flex-col">
+                <span class="w-[80%] flex justify-between items-center">
+                    <label for="" class="text-[10px] py-[]">Email address</label>
+                    <label id="valid" for="" class="text-[10px] text-red-500 py-[] hidden">Valid email required</label>
+                </span>
+                
+                <input type="email" required class="border-[1.2px] placeholder:text-[14px] w-[80%] pl-[10px] py-[5px] rounded-md border-[gray] focus:border-[#242742] placeholder:text-gray focus:placeholder:text-[#242742]" placeholder="email@company.com" name="" id="in">
+                <button id="sub" type="submit" class="w-[80%] hover:bg-gradient-to-r hover:to-[#ff6257] hover:from-pink-600 hover:shadow-2xl hover:shadow-[#ff6257] bg-[#242742] text-white text-center py-[9px] h-fit text-[14px] rounded-md">Subscribe to monthly newsteller</button>
+            </form>
+        </div>
+        <img src="/illustration-sign-up-desktop.svg" class="h-full smm:hidden rounded-none" alt="">
+        <img src="/illustration-sign-up-mobile.svg" class="h-[60vh] hidden w-full smm:flex rounded-none" alt="">
+    </section>
+    <script src="/script.js"></script>
+</body>
+</html>
