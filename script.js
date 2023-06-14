@@ -5,7 +5,6 @@ let b = document.querySelector('b')
 function dis(){
     window.location.href = '/src/index.html'
 }
-    b.textContent = ins.value
     sub.addEventListener('click',(e)=>{
         e.preventDefault()
         if (ins.value == '') {
